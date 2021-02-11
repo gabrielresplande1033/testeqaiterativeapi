@@ -1,5 +1,5 @@
-Então('valido o status code {int}') do |statusCode|
-    expect(@response.code).to eq(statusCode)
+Então('valido o status code {int}') do |status_code|
+    expect(@response.code).to eq(status_code)
   end
   
 Então('valido que a busca retornou elementos que contenham o nome do usuário') do

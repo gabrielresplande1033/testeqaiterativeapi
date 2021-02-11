@@ -3,7 +3,7 @@ Dado('o usuário {string}') do |usuario|
 end
 
 Dado('que busco por todos os usuários') do
-    @response = @userService.find_all
+    @response = @user_service.find_all
 end
   
 Dado('armazeno o id do primeiro usuário') do

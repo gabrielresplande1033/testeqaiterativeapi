@@ -1,5 +1,5 @@
 #language: pt
-@usersTest
+@users_test
 
 Funcionalidade: Realizar pesquisa de usuários
 Como usuário do sistema
@@ -7,7 +7,7 @@ Eu quero realizar requisições na api
 A fim de realizar pesquisa de usuários
 
 
-@pesquisarUsuarioEspecifico
+@pesquisar_usuario_especifico
 Cenário: Pesquisar usuário
    
    Dado o usuário "Naik" 
@@ -15,7 +15,7 @@ Cenário: Pesquisar usuário
    Então  valido o status code 200
    E valido que a busca retornou elementos que contenham o nome do usuário
 
-@pesquisarPosts
+@pesquisar_posts
 Cenário: Validar Posts
     Dado que busco por todos os usuários
     E armazeno o id do primeiro usuário
