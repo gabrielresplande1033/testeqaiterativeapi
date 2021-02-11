@@ -1,6 +1,5 @@
 class User
     include HTTParty
-    require_relative "../hooks/api_hook"
     base_uri "https://gorest.co.in/public-api"
 
     def find_all
