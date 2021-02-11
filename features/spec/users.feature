@@ -1,6 +1,6 @@
 #language: pt
-@users_test
 
+@users_test
 Funcionalidade: Realizar pesquisa de usuários
 Como usuário do sistema
 Eu quero realizar requisições na api
@@ -9,7 +9,6 @@ A fim de realizar pesquisa de usuários
 
 @pesquisar_usuario_especifico
 Cenário: Pesquisar usuário
-   
    Dado o usuário "Naik" 
    Quando busco por esse usuário
    Então  valido o status code 200
