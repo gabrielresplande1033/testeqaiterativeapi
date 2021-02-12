@@ -1,6 +1,5 @@
 Quando('busco por esse usuário') do
     @response = @user_service.find_by_name(@busca_usuario)
-    puts @response
 end
 
 Quando('busco pelos posts desse usuário') do
