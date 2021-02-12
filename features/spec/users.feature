@@ -14,6 +14,20 @@ Cenário: Pesquisar usuário
    Então  valido o status code 200
    E valido que a busca retornou elementos que contenham o nome do usuário
 
+@pesquisar_usuarios
+Esquema do Cenário: Pesquisar usuários
+   Quando busco por esse usuário <user>
+   Então valido o status code 200
+   E valido que a busca retornou elementos que contenham o nome do usuário
+
+    Exemplos:
+      | user    |
+      | "Joshi" |
+      | "Naik"  |
+      | "Desai" |
+      | "Sinha" |
+      | "Devar" |
+
 @pesquisar_posts
 Cenário: Validar Posts
     Dado que busco por todos os usuários
