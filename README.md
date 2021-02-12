@@ -4,8 +4,7 @@ Esse projeto tem como principal objetivo a avaliação do processo seletivo da I
 # Tecnologias utilizadas
 - [Ruby](https://www.ruby-lang.org/pt/)
 - [Cucumber](https://cucumber.io/)
-- [Capybara](https://www.rubydoc.info/github/jnicklas/capybara)
-- [Chromedriver](https://chromedriver.chromium.org/downloads)
+- [HTTParty](https://www.rubydoc.info/github/jnunemaker/httparty/HTTParty/ClassMethods)
 
 
 # Funcionalidades
